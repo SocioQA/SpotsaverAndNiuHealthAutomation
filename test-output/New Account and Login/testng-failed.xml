@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New Account and Login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="appbMySpotsaver.LoginTestCases">
+        <methods>
+          <include name="publishReports"/>
+          <include name="launchChrome"/>
+          <include name="configureReports"/>
+          <include name="createReportAfterTest"/>
+          <include name="TC_015"/>
+          <include name="TC_014"/>
+        </methods>
+      </class> <!-- appbMySpotsaver.LoginTestCases -->
+      <class name="appbMySpotsaver.TC_093">
+        <methods>
+          <include name="save3rdSpot"/>
+          <include name="save4thSpot"/>
+          <include name="save5thSpot"/>
+          <include name="publishReports"/>
+          <include name="createReportAfterTest"/>
+          <include name="save2ndSpot"/>
+          <include name="save6thSpot"/>
+          <include name="save1stSpot"/>
+          <include name="configureReports"/>
+          <include name="launchChrome"/>
+        </methods>
+      </class> <!-- appbMySpotsaver.TC_093 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [New Account and Login] -->
